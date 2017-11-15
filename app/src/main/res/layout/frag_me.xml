@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/color_user_top">
+
+        <ImageView
+            android:id="@+id/userimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_default_user_head" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userimg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/user_name"
+            android:text="@string/app_username"
+            android:textColor="@color/color_home_text" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/color_home_top">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                style="@style/app_users"
+                android:drawableTop="@mipmap/ic_collection_goods"
+                android:layout_gravity="center_vertical"
+                android:text="@string/app_goods"
+                android:textSize="20sp" />
+
+            <RadioButton
+                style="@style/app_users"
+                android:drawableTop="@mipmap/ic_collection_store"
+                android:layout_gravity="center_vertical"
+                android:text="@string/app_shops"
+                android:textSize="20sp" />
+
+            <RadioButton
+                style="@style/app_users"
+                android:drawableTop="@mipmap/ic_user_footprint"
+                android:layout_gravity="center_vertical"
+                android:text="@string/app_foot"
+
+                android:textSize="20sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        style="@style/app_user_layout"
+        >
+
+        <ImageView
+            style="@style/app_user"
+
+            android:paddingLeft="15dp"
+            android:src="@mipmap/ic_user_order" />
+
+        <TextView
+            style="@style/app_user_text"
+            android:text="@string/app_dingdan" />
+
+        <ImageView
+            style="@style/app_user"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="250dp"
+            android:src="@mipmap/ic_normal_dot_left" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/app_user_group"
+        android:layout_marginTop="20dp"
+        >
+        <RadioGroup
+            style="@style/app_user_group">
+
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_order_wait_pay"
+
+                android:text="@string/app_weifu" />
+
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_order_wait_drive"
+                android:text="@string/app_fahuo" />
+
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_order_wait_receipt"
+                android:text="@string/app_shouhuo" />
+
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_order_wait_comment"
+
+                android:text="@string/app_pinjia" />
+
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_order_wait_refund"
+                android:text="@string/app_tuikuan" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        style="@style/app_user_layout">
+
+        <ImageView
+            style="@style/app_user"
+            android:paddingLeft="15dp"
+            android:src="@mipmap/ic_user_property" />
+
+        <TextView
+            style="@style/app_user_text"
+            android:text="@string/app_caichan" />
+
+        <ImageView
+            style="@style/app_user"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="250dp"
+            android:src="@mipmap/ic_normal_dot_left" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/app_user_group"
+        android:layout_marginTop="20dp">
+
+        <RadioGroup
+            style="@style/app_user_group">
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_property_money"
+                android:text="@string/app_cunkuan" />
+
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_property_card"
+                android:text="@string/app_chongzhi" />
+
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_property_vouchers"
+                android:text="@string/app_daijin" />
+
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_property_red"
+                android:text="@string/app_hongbao" />
+            <RadioButton
+                style="@style/app_user_button"
+                android:drawableTop="@mipmap/ic_user_property_integral"
+                android:text="@string/app_jifen" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_marginTop="40dp"
+        style="@style/app_user_layout">
+        <ImageView
+            style="@style/app_user"
+            android:paddingLeft="15dp"
+            android:src="@mipmap/ic_user_address" />
+        <TextView
+            style="@style/app_user_text"
+            android:text="@string/app_dizhi" />
+        <ImageView
+            style="@style/app_user"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="250dp"
+            android:src="@mipmap/ic_normal_dot_left" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_marginTop="40dp"
+        style="@style/app_user_layout">
+
+        <ImageView
+            style="@style/app_user"
+            android:paddingLeft="15dp"
+            android:src="@mipmap/ic_user_setting" />
+        <TextView
+            style="@style/app_user_text"
+            android:text="@string/app_shezhi" />
+        <ImageView
+            style="@style/app_user"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="250dp"
+            android:src="@mipmap/ic_normal_dot_left" />
+    </LinearLayout>
+</LinearLayout>

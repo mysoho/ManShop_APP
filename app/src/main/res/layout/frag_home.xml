@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/layouts"
+        android:background="@color/comm_text_red"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_normal_code"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent" />
+        <EditText
+            android:layout_width="420dp"
+            android:layout_height="50dp"
+            android:hint="@string/app_seach"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:drawableRight="@mipmap/ic_action_search"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_action_nav"/>
+    </LinearLayout>
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/xrecyclerview"
+        android:layout_below="@+id/layouts"
+        android:layout_height="wrap_content">
+    </com.jcodecraeer.xrecyclerview.XRecyclerView>
+</RelativeLayout>

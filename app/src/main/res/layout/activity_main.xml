@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.administrator.manshop_app.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/group"
+        android:id="@+id/frame">
+
+    </FrameLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/group">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/home"
+            android:checked="true"
+            android:button="@null"
+            android:drawableTop="@drawable/selector"
+            android:gravity="center"
+            android:textColor="@drawable/selectortext"
+            android:text="@string/app_name_home"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textColor="@drawable/selectortext"
+            android:id="@+id/sort"
+            android:drawableTop="@drawable/selector1"
+            android:gravity="center"
+            android:text="@string/app_name_sort"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/selectortext"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/shop"
+            android:drawableTop="@drawable/selector2"
+            android:button="@null"
+            android:text="@string/app_name_shop"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@drawable/selectortext"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/selector3"
+            android:button="@null"
+            android:id="@+id/me"
+            android:gravity="center"
+            android:text="@string/app_name_me"/>
+    </RadioGroup>
+
+</RelativeLayout>

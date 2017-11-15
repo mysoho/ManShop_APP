@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerviews"
+        android:divider="#ffff0000"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_real"
+        android:layout_width="500dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="200dp"
+        fresco:placeholderImage="@mipmap/ic_launcher"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerviewss"
+        android:divider="#ffff0000"
+        android:dividerHeight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

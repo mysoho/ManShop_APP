@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ManShop_APP</string>
+    <string name="app_name_home">首页</string>
+    <string name="app_name_sort">分类</string>
+    <string name="app_name_shop">购物车</string>
+    <string name="app_name_me">个人</string>
+    <string name="app_seach">搜索</string>
+
+    <string name="app_qiandao">每日签到</string>
+    <string name="app_shangcheng">积分商城</string>
+    <string name="app_duihuan">兑换专区</string>
+    <string name="app_zhenwei">真伪查询</string>
+    <string name="app_weifu">未付款</string>
+    <string name="app_fahuo">待发货</string>
+    <string name="app_shouhuo">待收货</string>
+    <string name="app_pinjia">待评价</string>
+    <string name="app_tuikuan">退款/货</string>
+    <string name="app_cunkuan">预存款</string>
+    <string name="app_chongzhi">充值卡</string>
+    <string name="app_daijin">代金卷</string>
+    <string name="app_hongbao">红包</string>
+    <string name="app_jifen">积分</string>
+    <string name="app_goods">商品:</string>
+    <string name="app_shops">店铺:</string>
+    <string name="app_foot">足迹</string>
+    <string name="app_username">18611352750</string>
+    <string name="app_dingdan">全部订单</string>
+    <string name="app_caichan">全部财产</string>
+    <string name="app_zhuce_name">请输入用户名</string>
+    <string name="app_zhuce_zhuce">注册</string>
+    <string name="app_zhuce_pass">请输入密码</string>
+    <string name="app_zhuce_surepass">确认输入密码</string>
+    <string name="app_zhuce_email">请填写邮箱</string>
+    <string name="app_newuser">新用户注册</string>
+    <string name="app_zhuce">点击注册</string>
+    <string name="app_login">登录</string>
+    <string name="app_dizhi">收货地址</string>
+    <string name="app_shezhi">系统设置</string>
+    <string name="app_huodong">热门活动</string>
+    <string name="app_zhuanti">热门专题</string>
+    <string name="app_usernames">手机号/会员名/邮箱</string>
+    <string name="app_pass">请输入密码</string>
+</resources>
